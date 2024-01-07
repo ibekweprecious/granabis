@@ -1,0 +1,23 @@
+
+.policies__section{
+  padding: 8rem 0;
+}
+
+.mg{
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.p--1{
+  font-size: 2rem;
+  line-height: 5rem;
+  margin-bottom: 5rem;
+}
+
+
+/* privacy styles */
+
+.heading--two{
+  font-size: 2rem;
+  margin-bottom: 0;
+}

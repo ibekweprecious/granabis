@@ -1,0 +1,86 @@
+#age-verification {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(40, 40, 40, 1.0);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    z-index: 90000001;
+  }
+  
+  .age-verification-main {
+    background-color: #228b22;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-size: 13pt;
+    text-align: center;
+    padding: 25px;
+    
+    position: relative;
+    top: 10px;
+    width: 500px;
+    max-width: 80%;
+    margin: 0 auto;
+    -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+  }
+  @media only screen and (min-height: 400px) {
+    .age-verification-main {
+      top: 40%;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    .age-title{
+     line-height: 2.8rem;
+     font-size:2rem;
+    }
+  }
+  
+  .age-title, .age-main-text {
+    display: block;
+    margin-bottom: 1em;
+  }
+  .age-title {
+    font-size: 2.4rem;
+    margin-bottom: 0.5em;
+  }
+  
+  .age-button {
+    -webkit-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 2px 9px 0px rgba(0,0,0,0.3);
+    text-decoration: none;
+  }
+  
+  .age-button {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: white;
+    border: none;
+    font-size: 16pt;
+    
+    color: #333;
+    
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    margin: 5px 10px;
+  }
+  
+  .age-credits {
+    /** credits are not required, but are appreciated **/
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    display: block;
+    font-size: 12px;
+    text-decoration: normal;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: -15px;
+  }
+  .age-credits a {
+    color: white;
+  }
